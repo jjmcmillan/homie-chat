@@ -67,3 +67,25 @@ h1, h2, h3 {
   color: white;
   text-decoration: none;
 }
+
+.facebook {
+  height: 50px;
+}
+
+.messages {
+  border-right: 1px solid black;
+  height:100%;
+  position:absolute; top:0; bottom:0; right:0; left:0;
+  margin-top: 50px;
+}
+
+.edinburgh {
+  height: 50px;
+  background-color: #41D7F5;
+}
+
+.middle {
+  line-height: 50px;
+  text-align: center;
+  font-weight: 700;
+}
