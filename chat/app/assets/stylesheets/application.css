@@ -76,16 +76,23 @@ h1, h2, h3 {
   border-right: 1px solid black;
   height:100%;
   position:absolute; top:0; bottom:0; right:0; left:0;
-  margin-top: 50px;
-}
-
-.edinburgh {
-  height: 50px;
-  background-color: #41D7F5;
+  background-color: #445FAB;
+  color: white;
 }
 
 .middle {
   line-height: 50px;
   text-align: center;
   font-weight: 700;
+}
+
+.city {
+  margin-top: 20px;
+  font-size: 1.3em;
+}
+
+.activeChat {
+  width: 100%;
+  margin-top:-15px;
+  background-color:green;
 }
