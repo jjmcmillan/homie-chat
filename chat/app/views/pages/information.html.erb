@@ -1,0 +1,52 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+     
+      <nav class="navbar navbar-light bg-white">
+        <a class="navbar-brand" href="/">
+          <img src="https://drive.google.com/uc?export=view&id=0B382sh-THM-ObWpBOVVwbFVibmM" width="40" height="40" class="d-inline-block align-middle" alt="">
+           Unify
+        </a>
+      </nav>
+      
+      <div class="text-center">
+          <h2 style="font-weight:400">Find your groups</h2>
+      </div>
+      
+      <div class="col-md-4 offset-md-4" style="margin-top:30px">
+        
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">University</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>University of X</option>
+              <option>University of X</option>
+              <option>University of X</option>
+              <option>University of X</option>
+              <option>University of X</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Year of Entry</option>
+              <option>2018</option>
+              <option>2019</option>
+              <option>2020</option>
+              <option>2021</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Degree</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Medicine">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Student Accomadation</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Brae House">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block"><%= link_to "Submit", messages_path, class: 'link' %></button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>

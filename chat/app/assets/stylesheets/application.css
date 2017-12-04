@@ -42,7 +42,7 @@ h1, h2, h3 {
 .email {
   background-color: #E2E2E2;
   padding: 15px;
-  width: 380px;
+  width: 400px;
   border-radius: 10px;
   margin-top: 30px;
 }
@@ -69,7 +69,9 @@ h1, h2, h3 {
 }
 
 .facebook {
-  height: 50px;
+  height: 60px;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 .messages {

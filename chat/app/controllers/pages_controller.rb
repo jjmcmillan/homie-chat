@@ -5,6 +5,9 @@ class PagesController < ApplicationController
   def chat
   end
   
+  def information
+  end
+  
   def messages
   end
 end
