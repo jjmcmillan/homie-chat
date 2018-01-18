@@ -78,7 +78,7 @@ h1, h2, h3 {
   border-right: 1px solid black;
   padding:0px;
   height: 100vh;
-  background-color: #445FAB;
+  background-color: rgba(67, 132, 232, 1);
   color: white;
 }
 
@@ -125,4 +125,21 @@ h1, h2, h3 {
   bottom: 15px;
   left: 15px;
   right: 15px;
+}
+
+.text-message {
+  background-color: rgba(215, 216, 220, 0.5);
+  padding:10px;
+  border-radius:15px;
+  float:left;
+  clear:right;
+}
+
+.text-message-right {
+  background-color: rgba(38, 153, 238, 1);
+  padding:10px;
+  border-radius:15px;
+  float:right;
+  clear:left;
+  color:white;
 }
